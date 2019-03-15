@@ -25,6 +25,8 @@ public class Array {
                 sw = true;
                 pos = i;
             }
+            //Incrementa cada elemento del array en 1
+            incrementar(array[i]);
         }
         return sw;
     }
@@ -36,4 +38,15 @@ public class Array {
     public int getPos() {
         return pos;
     }
+
+    /**
+     * Incrementa en uno cada valor del array
+     * @param i
+     * @return i
+     */
+    public int incrementar(int i){
+        i = i + 1;
+        return i;
+    }
+
 }
