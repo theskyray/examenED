@@ -40,7 +40,7 @@ public class Array {
     }
 
     /**
-     * Incrementa en uno cada valor del array i
+     * Incrementa en uno cada valor del array
      * @param i
      * @return i
      */
